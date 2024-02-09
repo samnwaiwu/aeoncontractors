@@ -5,8 +5,16 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
 (function() {
   "use strict";
+
+
+/*** Alert Message*/
+setTimeout(wakeUpUser, 1000);
+function wakeUpUser() {
+alert("Welcome Samuel");
+}
 
   /**
    * Easy selector helper function
@@ -229,4 +237,5 @@
    */
   new PureCounter();
 
-})()
+}
+)()
