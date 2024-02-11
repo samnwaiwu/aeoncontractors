@@ -120,8 +120,9 @@ h6 {
 
 #header .logo {
   font-size: 28px;
-  margin: 0;
+  margin: 0px;
   padding: 0;
+  position:left;
   line-height: 1;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -563,7 +564,7 @@ background-color: transparent;
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 80px 0;
+  padding: 50px 0;
   overflow: hidden;
 }
 
@@ -1452,15 +1453,129 @@ section {
   content: "/";
 }
 
+
+
 /*--------------------------------------------------------------
-# Footer
+# Before Footer 1
 --------------------------------------------------------------*/
-#footer {
-  background: #0f0f0f;
-  color: #fff;
+.footer {
+  font-size: 14px;
+}
+
+.footer .footer-content {
+  background-color: #0f0f0f;
+  background-size: contain;
+  padding: 60px 0 30px 0;
+}
+
+.footer .footer-content .footer-info {
+  margin-bottom: 30px;
+}
+
+.footer .footer-content .footer-info .logo {
+  line-height: 0;
+  margin-bottom: 25px;
+}
+
+.footer .footer-content .footer-info .logo img {
+  max-height: 40px;
+  margin-right: 6px;
+}
+
+.footer .footer-content .footer-info .logo span {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--color-secondary);
+  font-family: var(--font-secondary);
+  margin-top: 3px;
+}
+
+.footer .footer-content .footer-info p {
+  font-size: 15px;
+  margin-bottom: 0;
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+}
+
+
+.footer .footer-content h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #009961;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer .footer-content .footer-links {
+  margin-bottom: 30px;
+}
+
+.footer .footer-content .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .footer-content .footer-links ul i {
+  margin-right: 2px;
+  color: var(--color-primary);
+  font-size: 16px;
+  line-height: 0;
+}
+
+.footer .footer-content .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-content .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+.footer .footer-content .footer-links ul a {
+  color: #898d91;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+.footer .footer-content .footer-links ul a:hover {
+  color: white;
+}
+
+.footer .footer-content .footer-contact p {
+  line-height: 26px;
+  color: var(--color-secondary);
+}
+
+.footer .footer-legal {
+  background: #fff;
+  padding: 30px 0;
+}
+
+.footer .footer-legal .copyright {
+  text-align: center;
+  color: var(--color-secondary);
+}
+
+.footer .footer-legal .credits {
+  padding-top: 4px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--color-secondary);
+}
+
+/*--------------------------------------------------------------
+# Footer 2
+--------------------------------------------------------------*/
+#footers {
+  background: white;
+  color: #080808;
   font-size: 14px;
   text-align: center;
-  padding: 30px 0;
+  padding: 5px 0;
 }
 
 #footer h3 {
@@ -1474,10 +1589,12 @@ section {
 }
 
 #footer p {
+  background: #0f0f0f;
+  color: white;
   font-size: 15;
   font-style: italic;
   padding: 0;
-  margin: 0 0 40px 0;
+  margin: 0 0 0px 0;
 }
 
 #footer .social-links {
@@ -1487,7 +1604,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #009961;
+  background: #white;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1500,8 +1617,8 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #00b371;
-  color: #fff;
+  background: #009961;
+  color: #white;
   text-decoration: none;
 }
 
