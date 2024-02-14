@@ -199,7 +199,7 @@ h6 {
 }
 
 .why-us .swiper {
-  margin: 140px 140px 120px 140px;
+  margin: 240px 240px 220px 240px;
   overflow: hidden;
 }
 
@@ -1666,7 +1666,7 @@ section {
 #footer h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #fff;
+  color: #009961;
   position: relative;
   font-family: "Poppins", sans-serif;
   padding: 0;
